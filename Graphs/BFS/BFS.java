@@ -34,8 +34,10 @@ public class BFS {
 
 	public static void main(String[] args) {
 		try{
-			File inputFile = new File("input.txt");
-			Scanner scanner = new Scanner(inputFile);
+			Scanner scanner = new Scanner(System.in);
+			String fileName = scanner.next();
+			File inputFile = new File(fileName);
+			scanner = new Scanner(inputFile);
 			int numberOfEdges = scanner.nextInt();
 			
 			if (numberOfEdges <= 1) {
