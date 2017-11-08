@@ -1,0 +1,3 @@
+Depth First Search on a graph, which means that we go for the first adjacent edge, recursively, until it has no adjacent edges and follow the same algorithm for all edges.
+
+Applications: Toplogical Sort (implemented here),  Detecting cycles in a graph (implemented here), Find strongly connected components in a graph(A directed graph is called strongly connected if there is a path from each vertex in the graph to every other vertex).
